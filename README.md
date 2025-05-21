@@ -4,25 +4,36 @@
 ## Introduction
 
 Road safety remains a critical public concern, with increasing demand for data-driven solutions to reduce accidents and casualties. This report introduces a comprehensive Excel-based dashboard designed to analyze trends in road accidents and casualties from 2021 to 2022. The goal is to translate raw data into actionable insights that support informed decision-making for road safety planning and policy.
----
-![](images/hero-dashboard-banner.png)
+
+
+![](https://github.com/evansory/Road-Accident-Dashboard-In-Excel/blob/main/Dashboard2.png)
 
 ## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Problem Statement](#problem-statement)
-3. [Key Requirements and Analytical Insights](#key-requirements-and-analytical-insights)
-4. [Technologies Used](#technologies-used)
-5. [Strategic Recommendations](#strategic-recommendations)
-6. [Dashboard Walkthrough](#dashboard-walkthrough)
-7. [Conclusion](#conclusion)
+1. [Introduction](#introduction)
+2. [Disclaimer](#disclaimer)
+3. [Project Overview](#project-overview)
+4. [Problem Statement](#problem-statement)
+5. [Key Requirements and Analytical Insights](#key-requirements-and-analytical-insights)
+6. [Technologies Used](#technologies-used)
+7. [Strategic Recommendations](#strategic-recommendations)
+8. [Dashboard Walkthrough](#dashboard-walkthrough)
+9. [Conclusion](#conclusion)
 
 ---
+### Disclaimer
+
+*The data used in this analysis/report is fictitious and was obtained from a publicly available dataset on Kaggle. It does not represent real-world accident records and should not be interpreted as factual or used for official decision-making, legal purposes, or public safety planning.*
+
+*This project is intended solely for educational and demonstration purposes, such as practicing data analysis techniques and showcasing data visualization or dashboard development skills.*
+
+*The author(s) make no claims about the accuracy, reliability, or real-world applicability of the findings presented.*
+
 
 ## Project Overview
 
 This report presents a comprehensive Road Accident Dashboard, developed exclusively in Microsoft Excel for the years 2021 and 2022. The goal was to convert raw accident and casualty data into a dynamic and interactive dashboard that enables stakeholders to uncover key patterns, identify high-risk areas, and support strategic road safety decisions.
 
-This project demonstrates advanced Excel proficiency, including data transformation, in-depth analysis, and intuitive visualization—delivered without the aid of specialized programming languages or Business Intelligence tools.
+This project demonstrates advanced Excel proficiency, including data transformation, data Cleaning, in-depth analysis, and intuitive visualization—delivered without the aid of specialized programming languages or Business Intelligence tools.
 
 ---
 
@@ -38,7 +49,7 @@ Stakeholders required a robust analytical solution to gain detailed insights int
 - **Insight**: A total of 417,883 casualties were recorded over the two years.
 - **Visualization**: KPI card showing overall casualty count.
 
-![Total Casualties KPI](images/total-casualties-kpi.png)
+![Total Casualties KPI](https://github.com/evansory/Road-Accident-Dashboard-In-Excel/blob/main/Primary%20KPI's.png)
 
 ---
 
@@ -46,7 +57,6 @@ Stakeholders required a robust analytical solution to gain detailed insights int
 - **Insight**: Fatal (7,135; 1.7%), Serious (59,312; 14.2%), Slight (351,436; 84.1%). Most incidents led to minor injuries.
 - **Visualization**: Donut chart displaying severity-wise percentages.
 
-![Casualties by Severity](images/severity-donut-chart.png)
 
 ---
 
@@ -54,15 +64,14 @@ Stakeholders required a robust analytical solution to gain detailed insights int
 - **Insight**: Cars were involved in 333,485 cases (79.8%), followed by Bikes and Vans.
 - **Visualization**: KPI card and bar chart by vehicle type.
 
-![Vehicle Casualty KPI](images/vehicle-casualty-kpi.png)
 
 ---
 
 ### Requirement 4: Detailed Breakdown by Vehicle Type
-- **Insight**: Breakdown includes Vans (33,472), Bikes (33,672), Buses (12,798), Tractors (1,032), Others (3,424).
+- **Insight**: Breakdown includes cars (333,485) Vans (33,472), Bikes (33,672), Buses (12,798), Tractors (1,032), Others (3,424).
 - **Visualization**: Bar chart with vehicle-wise data.
 
-![Vehicle Breakdown Bar Chart](images/vehicle-breakdown-bar-chart.png)
+![Vehicle Breakdown Bar Chart](https://github.com/evansory/Road-Accident-Dashboard-In-Excel/blob/main/Casualty%20by%20vehicle%20type.png)
 
 ---
 
@@ -70,7 +79,7 @@ Stakeholders required a robust analytical solution to gain detailed insights int
 - **Insight**: Line chart comparison shows year-over-year changes and seasonal patterns.
 - **Visualization**: Dual-line chart (Current vs. Previous Year).
 
-![Monthly Casualty Trend](images/monthly-casualty-trend.png)
+![Monthly Casualty Trend](https://github.com/evansory/Road-Accident-Dashboard-In-Excel/blob/main/Monthly%20Casualty%20Trends.png)
 
 ---
 
@@ -78,7 +87,7 @@ Stakeholders required a robust analytical solution to gain detailed insights int
 - **Insight**: Highest on Single Carriageways (109.7K), followed by Dual Carriageways (67.4K) and Roundabouts (26.8K).
 - **Visualization**: Bar chart for road types.
 
-![Casualties by Road Type](images/road-type-bar-chart.png)
+![Casualties by Road Type](https://github.com/evansory/Road-Accident-Dashboard-In-Excel/blob/main/road%20type.png)
 
 ---
 
@@ -86,7 +95,7 @@ Stakeholders required a robust analytical solution to gain detailed insights int
 - **Insight**: Dry roads saw the most casualties (279,445), but Wet (115,261) and Icy (22,781) conditions are significant.
 - **Visualization**: Bar chart for surface condition comparison.
 
-![Road Surface Condition Chart](images/surface-condition-bar-chart.png)
+![Road Surface Condition Chart](https://github.com/evansory/Road-Accident-Dashboard-In-Excel/blob/main/Road%20surface.png)
 
 ---
 
@@ -94,7 +103,7 @@ Stakeholders required a robust analytical solution to gain detailed insights int
 - **Insight**: Urban areas showed higher casualty volumes than rural areas.
 - **Visualization**: Donut chart dividing Urban vs. Rural.
 
-![Casualties by Area](images/area-type-donut-chart.png)
+![Casualties by Area](https://github.com/evansory/Road-Accident-Dashboard-In-Excel/blob/main/Location.png)
 
 ---
 
@@ -102,16 +111,15 @@ Stakeholders required a robust analytical solution to gain detailed insights int
 - **Insight**: Daylight incidents outnumbered nighttime ones, highlighting the importance of lighting conditions.
 - **Visualization**: Donut chart comparing light conditions.
 
-![Day vs Night Casualties](images/day-vs-night-donut-chart.png)
+![Day vs Night Casualties](https://github.com/evansory/Road-Accident-Dashboard-In-Excel/blob/main/Casualty%20by%20day%20vs%20night.png)
 
 ---
 
 ## Technologies Used
 
 - **Microsoft Excel**:
-  - *Advanced Formulas*: SUMIFS, COUNTIFS, AVERAGEIFS, INDEX-MATCH, array formulas
+  - *Advanced Formulas*
   - *Pivot Tables*: Multi-level data summarization
-  - *Power Query*: (If used) For cleaning and shaping datasets
   - *Data Validation*: Ensures data integrity
   - *Charts*: Bar, line, and donut charts
   - *Slicers & Timelines*: For dashboard interactivity and filtering
@@ -139,4 +147,12 @@ Users can interact with the Excel dashboard using slicers and timelines to filte
 
 ## Conclusion
 
-This project illustrates a data-driven approach to road safety analysis, all achieved using Excel. It demonstrates how strategic insights can be extracted from fictional but realistic datasets to inform actionable decisions—making this dashboard both practical and impactful.
+This project illustrates a data-driven approach to road safety analysis, all achieved using Excel. It demonstrates how strategic insights can be extracted from fictional but realistic datasets to inform actionable decisions, thus, making this dashboard both practical and impactful.
+
+### Let's Connect
+
+If you have any questions, feedback, or would like to collaborate, feel free to reach out:
+
+- 📧 Email: [e-mail](mailto:asamuaugustine@gmail.com)
+- 💼 LinkedIn: [linkedin](https://www.linkedin.com/in/augustineasamu/)
+- 📊 Portfolio: [portfolio](https://www.datascienceportfol.io/evansory)
